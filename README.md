@@ -6,8 +6,8 @@ Berbeda dengan klasifikasi gambar biasa, sistem ini mampu mengenali **banyak obj
 
 ## 📸 Screenshot Aplikasi
 
-*<img width="1920" height="1966" alt="screencapture-localhost-3001-2026-03-01-09_21_11" src="https://github.com/user-attachments/assets/a5b6bddd-b2c4-4e70-95fa-e8da6eb10c5d" />
-*
+<img width="1920" height="1997" alt="screencapture-localhost-3001-2026-03-01-09_47_16" src="https://github.com/user-attachments/assets/df81fe88-340f-471f-84cc-4a13312221de" />
+
 
 ## 🚀 Tech Stack Utama
 
