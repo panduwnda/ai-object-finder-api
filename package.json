@@ -1,0 +1,19 @@
+{
+  "name": "portofolio-object-finder",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@tensorflow-models/coco-ssd": "^2.2.3",
+    "@tensorflow/tfjs": "^4.22.0",
+    "express": "^5.2.1",
+    "jimp": "^0.22.10",
+    "multer": "^2.1.0"
+  }
+}
