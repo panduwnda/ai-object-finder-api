@@ -35,6 +35,12 @@ Berbeda dengan klasifikasi gambar biasa, sistem ini mampu mengenali **banyak obj
    ```bash
    cd ai-object-finder-api
    npm install
+   ```
+4. Jalankan server (Backend & AI Model):
+   ```bash
+   node server.js
+   ```
+5. Buka `http://localhost:3001` di *browser* untuk mencoba antarmuka pengujian visualnya.
 
 ## ☁️ Deployment Architecture (Cloud-Ready)
 
@@ -44,9 +50,3 @@ Sistem pendeteksi objek ini dirancang dengan arsitektur *stateless* dan siap unt
 - **Process Manager:** Menggunakan **PM2** untuk menjalankan Node.js di *background* agar server AI tidak mati saat session terminal ditutup.
 - **Web Server / Proxy:** Menggunakan **Nginx** sebagai *reverse proxy* untuk mem-forward *traffic* dari port 80 (HTTP) ke port 3001 (Node.js server).
 - **Storage:** Memisahkan media penyimpanan gambar (*upload destination*) ke AWS S3 atau Google Cloud Storage agar beban komputasi dan *storage* di server utama (EC2) tetap ringan dan optimal untuk *inference* AI.
-   ```
-4. Jalankan server (Backend & AI Model):
-   ```bash
-   node server.js
-   ```
-5. Buka `http://localhost:3001` di *browser* untuk mencoba antarmuka pengujian visualnya.
