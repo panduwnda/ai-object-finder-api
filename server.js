@@ -9,7 +9,7 @@ const cocoSsd = require("@tensorflow-models/coco-ssd");
 const Jimp = require("jimp");
 
 const app = express();
-const PORT = 3001; // Kita pakai port 3001 agar tidak bentrok dengan proyek pertama
+const PORT = 3001; 
 
 const uploadDir = path.join(__dirname, "uploads");
 if (!fs.existsSync(uploadDir)) fs.mkdirSync(uploadDir);
@@ -78,7 +78,7 @@ app.post("/api/detect", upload.single("image"), async (req, res) => {
   }
 });
 
-// UI FRONTEND MEMUKAU DENGAN TEMA DARK/CYBER (Single Page Application)
+// UI FRONTEND (Single Page Application)
 app.get("/", (req, res) => {
   res.send(`
     <!DOCTYPE html>
